@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with me through the contact form. I'd love to hear from you about collaborations, opportunities, or just to connect.">
+    <meta name="keywords" content="contact, get in touch, collaboration, inquiry, portfolio contact">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">My Portfolio</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="interests.html">Special Interests</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p class="page-subtitle">Shoot me a message or dm me for project proposals or casual talks!</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Want to contact me in real-time?</h2>
+                        <p>Unfortunately I have a busy schedule but I will see to it that I respond to your e-mail!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <strong>Email:</strong>
+                                <p>deusebio@fit.edu.ph</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Location:</strong>
+                                <p>Manila, Philippines</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Response Time:</strong>
+                                <p>I typically respond within 48 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Peep my socials:</h3>
+                            <div class="social-icons">
+                                <a href="https://ibb.co/tMXDRz0Z" aria-label="Facebook profile" class="social-link">Facebook</a>
+                                <a href="https://ibb.co/jv9vzywy" aria-label="Youtube profile" class="social-link">Youtube</a>
+                                <a href="https://ibb.co/4ZfJShC6" aria-label="Discord profile" class="social-link">Discord</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Diego Martin Eusebio. All rights reserved.</p>
+            <p class="footer-datetime" id="footer-datetime"></p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
+

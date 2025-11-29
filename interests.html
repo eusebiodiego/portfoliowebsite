@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my special interests including technology trends, sustainable living, space exploration, and innovative design concepts.">
+    <meta name="keywords" content="special interests, technology, innovation, sustainability, space, design trends">
+    <title>Special Interests - My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">My Portfolio</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="interests.html" class="active">Special Interests</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Special Interests</h1>
+                <p class="page-subtitle">Bands that I frequently listen to. They inspire my everyday activities.</p>
+            </div>
+        </section>
+
+        <section class="interests-content">
+            <div class="container">
+                <div class="interests-intro">
+                    <p>Beyond my hobbies, there are several bands and artists that deeply interest me. These bands often influence my work and perspective on the world. Use the toggle buttons to explore each interest in detail!</p>
+                </div>
+
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/panicatthedisco.png" alt="Panic! at the Disco" class="interest-image">
+                            <h2>Panic! at the Disco</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">Panic! at the Disco was an American pop rock band formed in Las Vegas, Nevada, in 2004.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Panic!_at_the_Disco'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/gorillaz.png" alt="Gorillaz" class="interest-image">
+                            <h2>Gorillaz</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">Gorillaz are both an English virtual and a non-virtual band created by the musician Damon Albarn and the artist Jamie Hewlett in 1998.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Gorillaz'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/idkhowbuttheyfoundme.png" alt="iDKHOWBUTTHEYFOUNDME" class="interest-image">
+                            <h2>iDKHOW</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">I Don't Know How But They Found Me is an American indie pop solo project based in Salt Lake City, Utah, fronted by singer-songwriter Dallon Weekes formed in 2016.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/I_Dont_Know_How_but_They_Found_Me'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/queensofthestoneage.png" alt="Queens of the Stone Age" class="interest-image">
+                            <h2>Queens of the Stone Age</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">Queens of the Stone Age is an American rock band formed in Seattle in 1996.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Queens_of_the_Stone_Age'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/sexbobombs.png" alt="Sex Bob-ombs" class="interest-image">
+                            <h2>Sex Bob-ombs</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">Sex Bob-omb is Scott Pilgrim's indie rock band.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://scottpilgrim.fandom.com/wiki/Sex_Bob-omb'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-header">
+                            <img src="images/bands/falloutboy.png" alt="Fall Out Boy" class="interest-image">
+                            <h2>Fall Out Boy</h2>
+                        </div>
+                        <div class="interest-content">
+                            <p class="interest-summary">Fall Out Boy is an American rock band formed in Wilmette, Illinois, a suburb of Chicago, in 2001.</p>
+                            <button class="toggle-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Fall_Out_Boy'">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Diego Martin Eusebio. All rights reserved.</p>
+            <p class="footer-datetime" id="footer-datetime"></p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
+
